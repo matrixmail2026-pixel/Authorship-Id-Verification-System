@@ -1,0 +1,30 @@
+all-things/
+├── .gitignore
+├── LICENSE
+├── README.md
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── pyproject.toml
+├── requirements-dev.txt
+├── src/
+│   └── all_things/
+│       ├── __init__.py
+│       ├── state.py
+│       ├── soliton.py
+│       ├── encoder.py
+│       ├── decoder.py
+│       ├── gf2.py
+│       ├── raptor.py
+│       └── cli.py
+├── tests/
+│   ├── __init__.py
+│   ├── test_soliton.py
+│   ├── test_gf2.py
+│   ├── test_lt.py
+│   ├── test_raptor.py
+│   └── test_recovery.py
+├── examples/
+│   └── demonstrate.py
+└── docs/
+    ├── architecture.md
+    └── ethics.md
